@@ -1,0 +1,3 @@
+{
+  "app": "npx tsx bin/gitguardian-agent.ts"
+}

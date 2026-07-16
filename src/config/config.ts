@@ -9,4 +9,5 @@ export const config = {
   region: process.env.AWS_REGION!,
   emailFrom: process.env.EMAIL_FROM!,
   emailTo: process.env.EMAIL_TO!,
+  bedrockModelId: process.env.BEDROCK_MODEL_ID!,
 };

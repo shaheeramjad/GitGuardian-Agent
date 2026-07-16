@@ -1,0 +1,138 @@
+{
+  "/GitGuardianStack": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "<anonymous> (/home/shaheer/gitguardian-agent/bin/gitguardian-agent.ts:8:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/GitGuardianStack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/GitGuardianStack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/GitGuardianStack/GitGuardianFunction/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GitGuardianFunctionA034C369"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "new GitGuardianStack (/home/shaheer/gitguardian-agent/lib/gitguardian-stack.ts:21:16)",
+        "<anonymous> (/home/shaheer/gitguardian-agent/bin/gitguardian-agent.ts:8:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/GitGuardianStack/DailyGitGuardianRule/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DailyGitGuardianRule3199FD96"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Rule2 in aws-cdk-lib...",
+        "new GitGuardianStack (/home/shaheer/gitguardian-agent/lib/gitguardian-stack.ts:57:18)",
+        "<anonymous> (/home/shaheer/gitguardian-agent/bin/gitguardian-agent.ts:8:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/GitGuardianStack/DailyGitGuardianRule/AllowEventRuleGitGuardianStackGitGuardianFunction918B1121": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DailyGitGuardianRuleAllowEventRuleGitGuardianStackGitGuardianFunction918B1121EBDED098"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...WrappedClass.<anonymous> in aws-cdk-lib...",
+        "new GitGuardianStack (/home/shaheer/gitguardian-agent/lib/gitguardian-stack.ts:64:10)",
+        "<anonymous> (/home/shaheer/gitguardian-agent/bin/gitguardian-agent.ts:8:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/GitGuardianStack/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/GitGuardianStack/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/GitGuardianStack/GitGuardianFunction/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GitGuardianFunctionServiceRole04EB85A7"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new NodejsFunction in aws-cdk-lib...",
+        "new GitGuardianStack (/home/shaheer/gitguardian-agent/lib/gitguardian-stack.ts:21:16)",
+        "<anonymous> (/home/shaheer/gitguardian-agent/bin/gitguardian-agent.ts:8:1)",
+        "...node internals..."
+      ]
+    }
+  ],
+  "/GitGuardianStack/GitGuardianFunction/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GitGuardianFunctionServiceRoleDefaultPolicyECB647C0"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...NodejsFunction.addToRolePolicy in aws-cdk-lib...",
+        "new GitGuardianStack (/home/shaheer/gitguardian-agent/lib/gitguardian-stack.ts:44:8)",
+        "<anonymous> (/home/shaheer/gitguardian-agent/bin/gitguardian-agent.ts:8:1)",
+        "...node internals..."
+      ]
+    }
+  ]
+}
